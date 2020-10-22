@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #373738;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.Hayden {
+    padding-right: 25px;
+    font-weight: bold;
+}
+.logo {
+    width: 10%;
+    padding: 1%;
+    
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    
+}
+
+
+.logo {
+    text-align: center;
+}
+
+.heroImg {
+    height: 700px;
+    padding: 25px;
+    text-align: center;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+footer {
+    background-color: #373738;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    text-align: center;
+}
+
+.content img {
+    height: 500px;
+}
+
+button {
+    display: block;
+    padding: 5px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+.fillerImage img {
+    height: 200px;
+}
+
+/*My UX Skills section-->*/
+.fillerImage {
+    padding: 10px;
+    text-align: center;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.skills {
+    width: 33%;
+    border: 2px;
+    border-color: black;
+    border-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*My Work section*/
+.workGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 50px;
+    padding-top: 20px;
+    height: 30vh;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
